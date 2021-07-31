@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "rules": {
+      "rules-hooks/rules-of-hooks": 2,
+      "rules-hooks/exhaustive-deps": 2
+    }
+  }
+}

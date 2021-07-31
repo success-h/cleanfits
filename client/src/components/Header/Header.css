@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+  background: url(/images/laundry2.webp) no-repeat fixed 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  top: 56px;
+  padding-top: 50px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 56px);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-title {
+  margin-top: -100px;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+.badge-cart {
+  position: absolute !important;
+  top: -10px;
+  right: 0;
+}
+
+@media all and (max-width: 500px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+}
