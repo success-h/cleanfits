@@ -4,7 +4,7 @@ import Layout from '../Layout'
 const Products = ({location}) => {
   return(
     <Layout pathname={location.pathname}>
-      <p className="lead">produccts</p>
+      <p className="lead">products</p>
     </Layout>
   )
 }
